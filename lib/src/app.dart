@@ -5,13 +5,12 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Главный экран'),
-        ),
-        body: const Center(
+      home: Scaffold( 
+     
+     
+        body: Center(
           child: Text('Aurora music is here!'),
         ),
       ),
