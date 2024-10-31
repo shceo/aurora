@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class SplashScreen extends StatelessWidget {
   final ValueNotifier<({int progress, String message})> progress;
 
-  const SplashScreen({required this.progress, Key? key}) : super(key: key);
+  const SplashScreen({required this.progress, super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,6 +23,11 @@ class SplashScreen extends StatelessWidget {
                 ],
               );
             },
+
+
+
+
+            
           ),
         ),
       ),

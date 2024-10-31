@@ -10,7 +10,6 @@ void main() {
         (progress: 0, message: 'Начало инициализации'),
       );
       runApp(SplashScreen(progress: initializationProgress));
-
       Timer.periodic(
         const Duration(milliseconds: 80),
         (timer) {
@@ -19,7 +18,6 @@ void main() {
             initializationProgress.value =
                 (progress: 100, message: 'Подождите...');
             timer.cancel();
-
             Future.delayed(
               const Duration(seconds: 1),
               () {
@@ -40,3 +38,4 @@ void main() {
     },
   );
 }
+
