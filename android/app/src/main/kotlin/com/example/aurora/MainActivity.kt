@@ -1,4 +1,4 @@
-package com.example.aurora
+package uz.aurora.mobile
 
 import io.flutter.embedding.android.FlutterActivity
 
